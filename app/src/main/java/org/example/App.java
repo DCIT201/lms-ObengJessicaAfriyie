@@ -9,7 +9,7 @@ public class App {
             Library library = new Library();
 
             // Create some books
-            Book book1 = new Book("1984", "George Orwell","Secker & Weinberg");
+            Book book1 = new Book("The Catcher in the Rye", "J.D. Salinger","Little,Brown and Company");
             Book book2 = new Book("To Kill a Mockingbird", "Harper Lee","Harper & Rowling");
             Book book3 = new Book("Moby Dick", "Herman Melville","Douglas Adams");
 
