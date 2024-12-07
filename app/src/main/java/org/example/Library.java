@@ -16,10 +16,10 @@ public class Library {
         if (book.availability()) {
             book.setAvailability(false);
             patron.borrowBook(book);
-            System.out.println(patron.getName() + " checked out " + book.getTittle());
+            System.out.println(patron.getName() + " checked out " + book.getTitle());
             return true;
         } else {
-            System.out.println("Sorry, " + book.getTittle() + " is not available.");
+            System.out.println("Sorry, " + book.getTitle() + " is not available.");
             return false;
         }
     }
@@ -27,7 +27,7 @@ public class Library {
     public void returnBook(Book book, Patron patron) {
         book.setAvailability(true);
         patron.returnBook(book);
-        System.out.println(patron.getName() + " returned " + book.getTittle());
+        System.out.println(patron.getName() + " returned " + book.getTitle());
     }
 
     // Method to list all books in the library
