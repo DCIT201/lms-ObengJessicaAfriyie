@@ -1,7 +1,8 @@
+package org.example;
 public class Book {
       // This is your working class.
 //    using the encapsulation rule, all attribute are made private
-    private String tittle;
+    private String title;
     private String author;
     private String edition;
     private String publisher;
@@ -9,8 +10,8 @@ public class Book {
     private String publicationDate;
     private boolean availability;
 //creating constructor
-    public Book(String tittle,String author,String publisher){
-        this.tittle=tittle;
+    public Book(String title,String author,String publisher){
+        this.title=title;
         this.author=author;
         this.publisher=publisher;
 //        initially making the book available
@@ -19,7 +20,7 @@ public class Book {
     }
 //    I'm providing getters
     public String getTittle(){
-        return tittle;
+        return title;
     }
     public String getAuthor(){
         return author;
@@ -40,7 +41,7 @@ public class Book {
     }
     //    creating a method to display details of the book
     public void displayDetails(){
-        System.out.println("Title:"+tittle);
+        System.out.println("Title:"+title);
         System.out.println("Author"+author);
         System.out.println("Publisher:"+publisher);
         System.out.println("Availability:"+availability);
