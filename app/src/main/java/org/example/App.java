@@ -4,7 +4,7 @@
 package org.example;
 
 public class App {
-   blic static void main(String[] args) {
+   public static void main(String[] args) {
             // Create a Library
             Library library = new Library();
 
