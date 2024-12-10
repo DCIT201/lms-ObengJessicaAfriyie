@@ -1,4 +1,4 @@
-package org.example;
+package example;
 public class Book {
       // This is your working class.
 //    using the encapsulation rule, all attribute are made private

@@ -1,7 +1,7 @@
 /*
  * This should be your main class where all your objects will be created
  */
-package org.example;
+package org.example;gi
 
 public class App {
    public static void main(String[] args) {
